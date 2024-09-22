@@ -142,11 +142,11 @@ function showResult(result) {
     replaybtn.style.display = "none";
     if (result === "win") {
         wintext.style.display = "block";
-        subtext.style.display = "block";
+        subtext.textContent = "against pc";
         play_againbtn.style.display = "block"; 
     } else if (result === "lost") {
         losttext.style.display = "block";
-        subtext.style.display = "block";
+        subtext.textContent = "against pc";
         play_againbtn.style.display = "block"; 
     } else {
         tietext.style.display = "block";
