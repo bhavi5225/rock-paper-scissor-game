@@ -133,7 +133,7 @@ function determineWinner(player, computer) {
     }
 }
 
-// display the result
+// displays the result
 function showResult(result) {
     wintext.style.display = "none";
     losttext.style.display = "none";
